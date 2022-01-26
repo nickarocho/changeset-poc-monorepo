@@ -1,3 +1,3 @@
-import { log } from "core";
+import { log } from "@nickarocho-js-changeset-poc/core";
 
 log("Woof 🐩");
