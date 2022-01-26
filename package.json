@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@changesets/cli": "^2.20.0",
+    "@types/jest": "^25.2.2",
     "jest": "^25.4.0",
     "ts-jest": "^25.4.0",
     "tslib": "^2.3.1",
@@ -20,5 +21,10 @@
     "verify": "yarn build && yarn test && yarn lint",
     "changeset": "changeset",
     "release": "yarn verify && changeset publish"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0"
   }
 }

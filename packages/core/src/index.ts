@@ -5,3 +5,5 @@ export const log = (message: any, ...rest: any[]) => {
 export const warn = (message: any, ...rest: any[]) => {
   console.warn(message, ...rest);
 };
+
+export const packageName = "core";
