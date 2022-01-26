@@ -1,0 +1,24 @@
+{
+  "name": "changeset-poc-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@changesets/cli": "^2.6.5",
+    "jest": "^25.4.0",
+    "ts-jest": "^25.4.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn tsc -b",
+    "test": "yarn jest",
+    "lint": "eslint --ext .js,.ts .",
+    "verify": "yarn build && yarn test && yarn lint",
+    "changeset": "changeset",
+    "release": "yarn verify && changeset publish"
+  }
+}

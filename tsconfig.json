@@ -1,0 +1,23 @@
+{
+  "references": [
+    {
+      "path": "./packages/core"
+    },
+    {
+      "path": "./packages/core/tsconfig.esm.json"
+    },
+    {
+      "path": "./packages/cat"
+    },
+    {
+      "path": "./packages/cat/tsconfig.esm.json"
+    },
+    {
+      "path": "./packages/dog"
+    },
+    {
+      "path": "./packages/dog/tsconfig.esm.json"
+    }
+  ],
+  "files": []
+}
