@@ -1,5 +1,12 @@
 # dog
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [5a705d1]
+  - @nickarocho-js-changeset-poc/core@1.3.0
+
 ## 1.0.3
 
 ### Patch Changes
