@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "dependencies": {
-    "@changesets/cli": "^2.6.5",
+    "@changesets/cli": "^2.20.0",
     "jest": "^25.4.0",
     "ts-jest": "^25.4.0",
     "tslib": "^2.3.1",
