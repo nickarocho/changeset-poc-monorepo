@@ -1,5 +1,12 @@
 # cat
 
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [fb57fa3]
+  - @nickarocho-js-changeset-poc/core@1.2.0
+
 ## 1.0.1
 
 ### Patch Changes
