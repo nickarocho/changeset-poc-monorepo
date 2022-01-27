@@ -19,7 +19,7 @@
     "test": "yarn jest",
     "lint": "eslint --ext .js,.ts .",
     "verify": "yarn build && yarn test && yarn lint",
-    "changeset": "changeset",
+    "change": "npx changeset",
     "release": "yarn verify && changeset publish"
   },
   "devDependencies": {
